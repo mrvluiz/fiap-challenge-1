@@ -22,7 +22,7 @@ app  = Flask(__name__)
 app.json.sort_keys = False
 api = Api(app,
             version='1.0.0',
-            title='API Embrapa Services',
+            title='API Embrapa Services @mrvluiz',
             description='API para consumo e disponibilização das informações da Embrapa',
             default='Principal'
             )
