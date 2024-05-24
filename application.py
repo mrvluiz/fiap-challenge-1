@@ -336,4 +336,4 @@ def ReadCSV(url, csvSep, tipo):
         return producaoList
 
 if __name__ == "__main__":
-    app.run(port=5000, host='localhost')
+    app.run(host='0.0.0.0')
